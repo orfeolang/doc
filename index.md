@@ -1,5 +1,32 @@
 # Introduction
 
+## Workflow
+
+An Orfeo program file is compiled giving a Musicline file. This
+Musicline file is then read by an application to either create a new
+type of file, or some kind of behavior.
+
+```mermaid
+flowchart TD
+
+    A[myFile.orfeo]
+    C[myFile.musicline]
+    D[Application]
+
+    E[music]
+    F[lighting]
+    G[robot control]
+    H[video editing]
+    I[etc.]
+
+    A -- compile --> C -- read --> D
+    D --> E
+    D --> F
+    D --> G
+    D --> H
+    D --> I
+```
+
 ## Examples
 
 ### Orfeo, La Musica's Entrance
