@@ -1,5 +1,16 @@
 # Introduction
 
+## Setup
+
+### Editors
+
+Any text editor can be used to write Orfeo code, but syntax
+highlighters currently only exist for Vim, and Visual Studio Code.
+
+[https://www.vim.org](https://www.vim.org) ⤴
+
+[https://code.visualstudio.com](https://code.visualstudio.com) ⤴
+
 ## Extensions
 
 Orfeo files use the ```.orfeo``` extension.
