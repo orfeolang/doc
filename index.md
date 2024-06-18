@@ -1,5 +1,23 @@
 # Introduction
 
+## Versioning
+
+The Orfeo programming language and accompanying applications are
+versioned with Semantic Versioning 2.0.0.
+
+Versions are numbered in three parts, x.y.z, which stand for
+major, minor, and patch. The major number only increases
+when breaking changes are introducted, the minor number is
+for feature additions, and the patch number is for bug fixes.
+
+Major version zero (0.y.z) is a special case for initial development.
+Anything may change at any time. The goal is to avoid breaking changes
+as much as possible, but until major version one, they are possible
+in minor, and patch increases.
+
+You can read the full spec here:
+[https://semver.org/spec/v2.0.0.html](https://semver.org/spec/v2.0.0.html) ⤴
+
 ## Workflow
 
 An Orfeo program file is compiled giving a Musicline file. This
