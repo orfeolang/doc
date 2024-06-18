@@ -1,5 +1,11 @@
 # Introduction
 
+## Extensions
+
+Orfeo files use the ```.orfeo``` extension.
+
+Musicline files use the ```.musicline``` extension.
+
 ## Versioning
 
 The Orfeo programming language and accompanying applications are
