@@ -5,9 +5,9 @@
 ### Editors
 
 Any text editor can be used to write Orfeo code, but syntax
-highlighters currently only exist for Vim, and Visual Studio Code.
+highlighters currently only exist for NeoVim, and Visual Studio Code.
 
-[https://www.vim.org](https://www.vim.org) ⤴
+[https://neovim.io](https://neovim.io) ⤴
 
 [https://code.visualstudio.com](https://code.visualstudio.com) ⤴
 
