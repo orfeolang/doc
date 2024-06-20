@@ -69,10 +69,10 @@ flowchart TD
 ![Orfeo - La Musica's Entrance](/assets/graphics/score/Orfeo-La-Musica-Entrance.svg)
 
 ```orfeo
-=4/2 ♩60
+=4/2 !60
 
-1 (1 <D5 'Dal'>) <D5~ 'mio'> (D5 <D5 'per-'> <D5 'mes-'>. <D5 'so a-'>^) |
-<D5 'ma-'> <D5 'to'> (1 <D5 'a'>) (<C5 'noi'> <A4 'ne'>)                 |
+_ (_ <D5 'Dal'>) <D5~ 'mio'> (D5 <D5 'per-'> .<D5 'mes-'> ^<D5 'so a-'>) |
+<D5 'ma-'> <D5 'to'> (_ <D5 'a'>) (<C5 'noi'> <A4 'ne'>)                 |
 <B♭4 've-'> <A4 'gno'>
 ```
 
