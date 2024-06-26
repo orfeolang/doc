@@ -1,5 +1,40 @@
 # Syntax
 
+## Raw Types
+
+### Nonnegative Number
+
+A nonnegative number is either an integer or a float that is zero or
+more.
+
+Nonnegative numbers in Orfeo should never start with a period, they
+should always start with a digit: ```0.5``` instead of ```.5```.
+This is to avoid confusables with rhythm dots.
+
+```
+0
+0.5
+42
+10.10
+```
+
+### Time Signature
+
+A time signature in Orfeo is composed of a nonnegative number as
+nominator, the ```/``` as separator, and another nonnegative number
+as denominator.
+
+```
+4/4
+4.5/4
+4/4.5
+4/0
+0/4
+```
+
+-- Talk about time signatures 2/3, time signatures with floats, and
+also time signatures with 0 as nominator or denominator.
+
 ## Rests
 
 In Orfeo, rests are similar to those in western music. They denote a
