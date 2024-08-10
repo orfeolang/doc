@@ -205,3 +205,28 @@ A rest must be a nonnegative number, or a time signature.
 ```
 
 :::
+
+## Orfeo's Ecosystem
+
+| Repository        | Type |  Location                                         |
+| :---------------- | :--- | :------------------------------------------------ |
+| Orfeo4Max         | -    | https://github.com/orfeolang/orfeo-for-max ⤴      |
+| Orfeo4PureData    | -    | https://github.com/orfeolang/orfeo-for-puredata ⤴ |
+| musicline2reaper  | -    | https://github.com/orfeolang/dataline2reaper ⤴    |
+| Orfeo's doc       | -    | https://github.com/orfeolang/docs ⤴               |
+| Orfeo's logo      | -    | https://github.com/orfeolang/logo ⤴               |
+| Orfeo bugs        | -    | https://github.com/orfeolang/bugs ⤴               |
+| API Consumer Raku | -    | https://github.com/orfeolang/api-consumer-raku ⤴  |
+
+
+
+
+
+----------------------------------------------------------------------
+
+<script setup>
+    import { useData } from 'vitepress'
+    const { page } = useData()
+</script>
+
+<pre>{{ page }}</pre>

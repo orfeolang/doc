@@ -96,3 +96,12 @@ _ (_ <D5 'Dal'>) <D5~ 'mio'> (D5 <D5 'per-'> .<D5 'mes-'> ^<D5 'so a-'>) |
 20   1 note A4 'gno'
 24   1 tail
 ```
+
+----------------------------------------------------------------------
+
+<script setup>
+    import { useData } from 'vitepress'
+    const { page } = useData()
+</script>
+
+<pre>{{ page }}</pre>
